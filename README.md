@@ -22,8 +22,11 @@ pip3 install <module_name>
 
 Advice : Create a virtual environment (venv) to run the code by entering the following in your terminal before installing any of the above modules : python3 -m venv <venv_name>. Activate the venv using this : source <venv_name>/bin/activate. Install all necessary modules and run the code.
 
+
+
+Google all other problems. ¯\\_(ツ)_/¯
+
 plip plop
 
-Google all other problems. ¯\_(ツ)_/¯
 
 Sushanth Yelishetty sushanth-yelishetty
