@@ -34,7 +34,7 @@ def myCommand():
 
 def assistant(command):
 
-    if 'open' in command and 'moodle' not in command:
+    if 'open' in command and 'moodle' not in command and 1:
         regex = re.search('open (.+)', command)
         if regex:
             domain = regex.group(1)
