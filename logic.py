@@ -34,7 +34,7 @@ def myCommand():
 
 def assistant(command):
 
-    if 'open' in command and 'moodle' not in command:
+    if 'open' in command and 'moodle' not in command and 1:
         regex = re.search('open (.+)', command)
         if regex:
             domain = regex.group(1)
@@ -51,7 +51,7 @@ def assistant(command):
     elif 'hello' in command or 'hey' in command:
         day_time = int(strftime('%H'))
         if day_time < 12:
-            logicResponse('Hello Sudhansh. Good morning')
+            logicResponse('Hello Sudhansh. Good morning!')
         elif 12 <= day_time < 18:
             logicResponse('Hello Sudhansh. Good afternoon')
         else:
